@@ -68,7 +68,7 @@ class Owner
   
   def list_pets
     self.pets.each do |type, pets|
-      "I have #{pets.count} type"
+      "I have #{pets.count} #{type},"
      end
   end
 end
