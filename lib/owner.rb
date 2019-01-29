@@ -69,7 +69,7 @@ class Owner
   def list_pets
     list_string = ''
     self.pets.each do |type, pets|
-      if type == "fishes"
+      if type.to_s == "fishes"
         list_string += "I have #{pets.count} #{type.to_s.chop},"
       else
         list_string += "I have #{pets.count} #{type.to_s.chop}(s),"
