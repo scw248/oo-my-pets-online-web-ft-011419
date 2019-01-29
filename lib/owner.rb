@@ -71,9 +71,12 @@ class Owner
     self.pets[:fishes].each { |fish| fish.mood == "nervous"}
     self.pets[:cats].each { |cat| cat.mood == "nervous"}
     self.pets[:dogs].each { |dog| dog.mood == "nervous"}
+    
+    self
   end
   
   def list_pets
+    
     
   end
 end
