@@ -54,4 +54,8 @@ class Owner
     self.pets[:dogs]
     #binding.pry
   end
+  
+  def walk_dogs
+    
+  end
 end
