@@ -68,6 +68,7 @@ class Owner
   
   def list_pets
     self.pets.each do |type, pets|
+      binding.pry
       "I have #{pets.count} #{type},"
      end
   end
