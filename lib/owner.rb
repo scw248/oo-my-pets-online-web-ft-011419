@@ -72,11 +72,11 @@ class Owner
     self.pets[:cats].each { |cat| cat.mood == "nervous"}
     self.pets[:dogs].each { |dog| dog.mood == "nervous"}
     
-    self
+    self.pets = {:fishes => [], :dogs => [], :cats => []}
   end
   
   def list_pets
-    
+    self.pets.each
     
   end
 end
