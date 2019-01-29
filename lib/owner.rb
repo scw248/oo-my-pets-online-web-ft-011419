@@ -71,5 +71,6 @@ class Owner
     self.pets.each do |type, pets|
       list_string += "I have #{pets.count} #{type.slice(1)},"
      end
+     list_string
   end
 end
