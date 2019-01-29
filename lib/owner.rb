@@ -3,8 +3,8 @@ class Owner
   @@all = []
   @@count = 0
   
-  def initialize(name)
-    @name = name
+  def initialize(species)
+    @species = species
     @@all << self
     @@count += 1
   end
