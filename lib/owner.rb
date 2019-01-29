@@ -1,5 +1,7 @@
 class Owner
   
+  attr_accessor :species
+  
   @@all = []
   @@count = 0
   
