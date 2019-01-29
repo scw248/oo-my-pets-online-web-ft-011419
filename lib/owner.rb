@@ -67,9 +67,9 @@ class Owner
   end
   
   def list_pets
+    list_string = ''
     self.pets.each do |type, pets|
-      binding.pry
-      "I have #{pets.count} #{type},"
+      list_string += "I have #{pets.count} #{type.slice(1)},"
      end
   end
 end
