@@ -3,6 +3,12 @@ class Owner
   @@all = []
   @@count = 0
   
+  def initialize(name)
+    @name = name
+    @@all << self
+    @@count += 1
+  end
+  
   def self.all
     @@all
   end
