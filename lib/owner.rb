@@ -11,6 +11,7 @@ class Owner
     @species = species
     @@all << self
     @@count += 1
+    @pets = {:fishes => [], :dogs => [], :cats => []}
   end
   
   def self.all
@@ -28,10 +29,6 @@ class Owner
   
   def say_species
     "I am a #{self.species}."
-  end
-  
-  def pets
-    @pets = {:fishes => [], :dogs => [], :cats => []}
   end
   
   def buy_fish(name)
