@@ -2,7 +2,7 @@ class Dog
   
   attr_reader :name
   
-  def iniitalize(name)
+  def initialize(name)
     @name = name.freeze
   end
 end
