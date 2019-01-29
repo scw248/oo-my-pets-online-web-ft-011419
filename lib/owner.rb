@@ -69,7 +69,7 @@ class Owner
   def list_pets
     list_string = ''
     self.pets.each do |type, pets|
-      list_string += "I have #{pets.count} #{type.slice(1, -1)},"
+      list_string += "I have #{pets.count} #{type},"
      end
      list_string
   end
