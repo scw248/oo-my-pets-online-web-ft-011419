@@ -44,8 +44,6 @@ class Owner
   def buy_dog(name)
     dog = Dog.new(name)
     self.pets[:dogs] << dog
-    self.pets[:dogs]
-    #binding.pry
   end
   
   def walk_dogs
