@@ -52,7 +52,7 @@ class Owner
     dog = Dog.new(name)
     self.pets[:dogs] << dog
     self.pets[:dogs]
-    #binding.pry
+    binding.pry
   end
   
   def walk_dogs
